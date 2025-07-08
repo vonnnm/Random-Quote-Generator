@@ -44,9 +44,7 @@ function quoteRandom() {
 
 
 // Show text once clicked
-const button = document.querySelector("button");
-
-button.addEventListener("click", () => {
-    button.textContent = quoteRandom();
-});
+function produceQuote(event){
+    event.target.innerHTML = quotes[Math.floor(Math.random()*quotes.length)]
+}
 

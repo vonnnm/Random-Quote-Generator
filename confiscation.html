@@ -8,11 +8,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+<style>
+body {
+    background-image: url("starysky.jpg")
+}
+</style>
+
 <body>
 <h1 class = 'roboto-center'>Welcome!</h1>
 <p></p>
 <h2 class = 'roboto-center'>Select this button here in order to get a random quote!</h2>
 <script src="./main.js"></script>
-<button onclick=button() class = 'rounded-button-center'>Generate Quote</button>
+<button onclick=produceQuote(event) class = 'rounded-button-center'>Generate Quote</button>
 </body>
 </html>
