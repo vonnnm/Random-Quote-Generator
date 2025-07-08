@@ -15,18 +15,23 @@
 }
 
 /* Rounded button class */
-.rounded-button {
-    background-color: #28282b;
+.rounded-button-center {
+    background-color: #F2F3F4;
     border: none;
-    color: white;
-    padding: 20px;
+    color: black;
+    padding: 30px;
     text-align: center;
     border-radius: 17px;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 10px 5px;
+    font-size: 20px;
+    margin: 10px 5px auto;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
 
 
 
