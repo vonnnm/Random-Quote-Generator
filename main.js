@@ -1,4 +1,4 @@
-//The quotes, all thats needed for now is just this,
+//The quotes, all that's needed for now is just this,
 // I would import a txt file but I don't know at all how to.
 
 const quotes = [
