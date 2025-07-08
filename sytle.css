@@ -34,6 +34,19 @@
     transform: translate(-50%, -50%);
 }
 
-
-
-
+#Quote {
+    background-color: #6182FF;
+    border: none;
+    color: black;
+    padding: 50px;
+    text-align: center;
+    border-radius: 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 15px 10px auto;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
