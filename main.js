@@ -1,5 +1,4 @@
 //The quotes, all that's needed for now is just this,
-// I would import a txt file but I don't know at all how to.
 
 const quotes = [
     "Success is not final, failure is not fatal: it is the courage to continue that counts.",
@@ -36,15 +35,16 @@ const quotes = [
 
 
 //The actual function, all this does will
-//  select a random selection from the array.
-
-function quoteRandom() {
-    return quotes[Math.floor(Math.random()*quotes.length)]
-}
-
-
-// Show text once clicked
 function produceQuote(event){
     event.target.innerHTML = quotes[Math.floor(Math.random()*quotes.length)]
 }
+
+
+let newButton = document.getElementById("newButton");
+
+
+function produceAfter(event){
+    event.target.innerHTML = quotes[Math.floor(Math.random()*quotes.length)]
+}
+
 
