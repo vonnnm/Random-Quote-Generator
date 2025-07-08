@@ -1,0 +1,29 @@
+/* Roboto centered font */
+.roboto-center {
+     font-family: "Roboto", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 300;
+     font-style: normal;
+     font-variation-settings:
+     "wdth" 100;
+     text-align: center;
+     }
+
+/* Center text class */
+.center-text {
+    text-align: center;
+}
+
+/* Rounded button class */
+.rounded-button {
+    background-color: #28282b;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
