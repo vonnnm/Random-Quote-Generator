@@ -35,16 +35,23 @@ const quotes = [
 
 
 //The actual function, all this does will
-function produceQuote(event){
-    event.target.innerHTML = quotes[Math.floor(Math.random()*quotes.length)]
+// Modify your produceQuote function in main.js
+function produceQuote(event) {
+    // Get a random quote
+    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+
+    // Find the quote display element
+    const quoteDisplay = document.getElementById("quoteDisplay");
+
+    // Update the quote text
+    quoteDisplay.innerHTML = randomQuote;
+
+    // Make the quote display visible
+    quoteDisplay.style.display = "block";
 }
 
+// Use the newButton variable you already have
+newButton.addEventListener("click", produceQuote);
 
-let newButton = document.getElementById("newButton");
-
-
-function produceAfter(event){
-    event.target.innerHTML = quotes[Math.floor(Math.random()*quotes.length)]
-}
 
 
