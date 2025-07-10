@@ -1,0 +1,3 @@
+Welcome! This is a simple project that I decided to make as a way to show my first 6 months of programming!
+I am aiming for a back-end-engineer so my front work looks a little sloppy...
+But I attempted to do my best for all the under the hood work!
